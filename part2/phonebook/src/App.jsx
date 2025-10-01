@@ -60,7 +60,7 @@ const App = () => {
           <button type="submit">add</button>
         </div>
       </form>
-      <div>debug: {newName}</div>
+      {/* <div>debug: {newName}</div> */}
       <h2>Numbers </h2>
       {nameToShow.map(person => <div key={person.name}>{person.name} {person.number}</div>)}
     </div>
